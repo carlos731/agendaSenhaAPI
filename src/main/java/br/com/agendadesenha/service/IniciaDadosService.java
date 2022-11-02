@@ -12,8 +12,8 @@ public class IniciaDadosService {
 
 	public void instanciaDB() {
 		
-		Agenda agenda1 = new Agenda("facebook", "carlos@gmail.com", "face@1234", new Date());
-		Agenda agenda2 = new Agenda("instagram", "carlos@gmail.com", "insta@1234", new Date());
+		Agenda agenda1 = new Agenda("facebook", "fulano@gmail.com", "face@1234", new Date());
+		Agenda agenda2 = new Agenda("instagram", "fulano@gmail.com", "insta@1234", new Date());
 		
 	}
 

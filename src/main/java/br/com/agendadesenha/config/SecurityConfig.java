@@ -9,12 +9,14 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+
 public class SecurityConfig {
 
 	private static final String[] PUBLIC_MATCHERS = { "/h2-console/**" };
 
 	@Autowired
 	private Environment env;
+
 
 	@Bean
 	CorsConfigurationSource corsConfigurationSource() {

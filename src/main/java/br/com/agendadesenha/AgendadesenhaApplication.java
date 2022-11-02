@@ -15,17 +15,9 @@ import br.com.agendadesenha.service.IniciaDadosService;
 @SpringBootApplication
 public class AgendadesenhaApplication {
 
-	@Autowired 
-	private IniciaDadosService service;
-	
 	
 	public static void main(String[] args) {
 		SpringApplication.run(AgendadesenhaApplication.class, args);
-	}
-	
-	@Bean
-	public void instanciaDB() {
-		this.service.instanciaDB();
 	}
 
 
